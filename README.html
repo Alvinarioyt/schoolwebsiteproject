@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - [Your Name]</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Optional custom styles for a nice font and smooth transitions */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .btn-primary {
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white flex items-center justify-center min-h-screen p-4">
+
+    <!-- Main Container -->
+    <div class="max-w-4xl w-full mx-auto text-center p-8 md:p-12 rounded-2xl bg-gray-800 shadow-2xl">
+
+        <!-- Hero Section -->
+        <div class="mb-10">
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4">
+                Hi, I'm [Your Name]
+            </h1>
+            <p class="text-lg md:text-xl text-gray-400 mb-8">
+                I'm a passionate and creative individual with a love for building things. Welcome to my personal space on the web!
+            </p>
+            <!-- Call to Action Button -->
+            <a href="#" class="btn-primary inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full shadow-lg">
+                View My Work
+            </a>
+        </div>
+
+        <!-- About Me Sections -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
+            <!-- My Skills Card -->
+            <div class="p-6 bg-gray-700 rounded-xl shadow-inner">
+                <div class="flex items-center mb-3">
+                    <svg class="w-8 h-8 text-blue-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                    <h3 class="text-xl font-semibold text-gray-200">My Skills</h3>
+                </div>
+                <p class="text-gray-400">
+                    I'm skilled in web development, with experience in HTML, CSS, JavaScript, and various modern frameworks.
+                </p>
+            </div>
+            <!-- My Interests Card -->
+            <div class="p-6 bg-gray-700 rounded-xl shadow-inner">
+                <div class="flex items-center mb-3">
+                    <svg class="w-8 h-8 text-blue-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9v1m0-1V3m0 18h1m0-1H3"></path></svg>
+                    <h3 class="text-xl font-semibold text-gray-200">My Interests</h3>
+                </div>
+                <p class="text-gray-400">
+                    When I'm not coding, I enjoy photography, hiking, and exploring new places to fuel my creativity.
+                </p>
+            </div>
+            <!-- Contact Me Card -->
+            <div class="p-6 bg-gray-700 rounded-xl shadow-inner">
+                <div class="flex items-center mb-3">
+                    <svg class="w-8 h-8 text-blue-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-2 11H5a2 2 0 01-2-2V7a2 2 0 012-2h14a2 2 0 012 2v10a2 2 0 01-2 2z"></path></svg>
+                    <h3 class="text-xl font-semibold text-gray-200">Contact Me</h3>
+                </div>
+                <p class="text-gray-400">
+                    Feel free to reach out to me with any questions or collaboration ideas. I'd love to connect!
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
